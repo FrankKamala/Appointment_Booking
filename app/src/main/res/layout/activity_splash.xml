@@ -22,7 +22,7 @@
         android:layout_centerInParent="true"
        android:layout_below="@id/tex"
         android:textSize="18sp"
-        android:textColor="#FFFFFF"/>
+        android:textColor="#000000"/>
 
     <ProgressBar
         android:layout_marginTop="10dp"
