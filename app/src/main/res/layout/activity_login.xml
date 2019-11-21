@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:orientation="vertical"
+    tools:context=".login">
+
+
+
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="100dp"
+        android:id="@+id/username"
+        android:background="@drawable/rounded_edittext"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="Email"
+        android:ems="10"
+        android:textSize="16sp"
+        android:textColorHint="@color/white_pressed"
+        android:inputType="textEmailAddress" />
+
+
+    <EditText
+        android:id="@+id/password"
+        android:background="@drawable/rounded_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="Password"
+        android:textColorHint="@color/white_pressed"
+        android:ems="10"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:background="@drawable/rounded_edittext"
+        android:textColor="@color/White"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Sign in"
+        />
+
+    <TextView
+        android:id="@+id/create"
+        android:background="@drawable/rounded_edittext"
+        android:textColor="@color/White"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        />
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center|bottom"
+        android:visibility="gone"
+
+         />
+
+</LinearLayout>

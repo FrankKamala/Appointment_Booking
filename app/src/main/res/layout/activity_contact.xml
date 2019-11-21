@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Contact">
+    <TextView
+        android:id="@+id/doc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Doctor"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:padding="30dp"/>
+
+    <TextView
+        android:id="@+id/numb"
+        android:layout_below="@id/doc"
+         android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   +254720551855"
+        android:textSize="30dp"
+        android:drawableLeft="@drawable/call"
+        android:layout_marginLeft="20dp"
+        />
+
+    <TextView
+        android:id="@+id/editText2"
+        android:layout_below="@+id/numb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="#000000"
+        android:layout_marginLeft="20dp"
+        android:textSize="25dp"
+        android:text="      mail@mail.com"
+        android:inputType="textEmailAddress"
+        android:drawableLeft="@drawable/mail"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call Now"
+        android:id="@+id/call"
+        android:layout_below="@id/editText2"
+
+        android:background="#4c4cff"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>
