@@ -34,7 +34,7 @@
         android:layout_marginTop="10dp"
         android:layout_gravity="center"
         android:gravity="center"
-        android:hint="Password"
+        android:hint="Enter Password"
         android:textColorHint="@color/white_pressed"
         android:ems="10"
         android:inputType="textPassword"
