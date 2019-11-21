@@ -92,7 +92,7 @@ public class login extends AppCompatActivity implements View.OnClickListener {
         String email = ed1.getText().toString().trim();
         String password = ed2.getText().toString().trim();
         if (email.isEmpty()) {
-            ed1.setError("Email is required");
+            ed1.setError("Email is required"); //mail validation
             ed1.requestFocus();
             return;
         }
@@ -104,14 +104,14 @@ public class login extends AppCompatActivity implements View.OnClickListener {
         }
 
         if (password.isEmpty()) {
-            ed2.setError("Password is required");
+            ed2.setError("Password is required"); //password validation
             ed2.requestFocus();
             return;
         }
 
 
         if (password.length() < 6) {
-            ed2.setError("Minimum length of password should be 6");
+            ed2.setError("Minimum length of password should be 6"); //password length
             ed2.requestFocus();
             return;
         }
