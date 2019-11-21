@@ -3,7 +3,7 @@
     android:shape="rectangle">
     <gradient
         android:startColor="#3D5069"
-        android:centerColor="#800000"
+        android:centerColor="#C0C0C0"
         android:endColor="#800000"
         android:angle="90"/>
     <corners
