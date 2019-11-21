@@ -20,7 +20,7 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class login extends AppCompatActivity implements View.OnClickListener {
    // Button button,sign;
-    EditText ed1,ed2;
+    EditText ed1,ed2; //Edit text input
     ProgressBar progressBar;
     FirebaseAuth mAuth;
     @Override
