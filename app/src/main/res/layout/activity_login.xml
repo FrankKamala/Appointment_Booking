@@ -9,7 +9,7 @@
     tools:context=".login">
 
 
-
+<!--Login details go here-->
 
     <EditText
         android:layout_width="250dp"
